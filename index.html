@@ -1,0 +1,141 @@
+<html lang="ko">
+  <head>
+    <title>Is This Real?</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1"
+    />
+    <meta name="description" content="Is This Real?" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Is This Real?" />
+    <meta property="og:description" content="Is This Real?" />
+    <meta property="og:site_name" content="Is This Real?" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./src/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./src/favicon/favicon.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./src/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./src/favicon/site.webmanifest" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./src/faviconmbol.png"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#faf8ee" />
+    <script src="./asset/script.js"></script>
+    <link rel="stylesheet" href="./asset/fonts.css" />
+    <link rel="stylesheet" href="./asset/common.css" />
+    <script src="./asset/ui/script.js"></script>
+    <link rel="stylesheet" href="./asset/ui/style.css" />
+    <script src="./asset/running.js"></script>
+    <link rel="stylesheet" href="./asset/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Is This Real?</h1>
+      <div>
+        <button type="button" onclick="upload()">
+          <img src="./src/upload.svg" alt="업로드" />
+          <input type="file" accept=".itr" />
+        </button>
+        <button type="button" onclick="download()">
+          <img src="./src/download.svg" alt="다운로드" />
+        </button>
+      </div>
+    </header>
+    <main>
+      <div>
+        <article id="stage"></article>
+        <section id="canvas">
+          <div>
+            <div class="menu">
+              <label for="storage_block">
+                <input
+                  type="radio"
+                  name="storage"
+                  value="block"
+                  id="storage_block"
+                />블록
+              </label>
+              <label for="storage_character">
+                <input
+                  type="radio"
+                  name="storage"
+                  value="character"
+                  id="storage_character"
+                />캐릭터
+              </label>
+              <label for="storage_background">
+                <input
+                  type="radio"
+                  name="storage"
+                  value="background"
+                  id="storage_background"
+                />배경
+              </label>
+              <label for="storage_audio">
+                <input
+                  type="radio"
+                  name="storage"
+                  value="audio"
+                  id="storage_audio"
+                />오디오
+              </label>
+            </div>
+            <div class="indicater">
+              <span></span>
+              <button type="button" onclick="scriptPlay()">실행</button>
+            </div>
+          </div>
+          <div class="contents">
+            <div class="block none"></div>
+            <div class="character none"></div>
+            <div class="background none"></div>
+            <div class="audio none"></div>
+          </div>
+        </section>
+      </div>
+      <section>
+        <ul id="script">
+          <li class="block">
+            <span>0</span>
+            <div data-color="2"><span>시작하기</span></div>
+          </li>
+        </ul>
+        <div class="virtual">
+          <span class="inputWidth"></span>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

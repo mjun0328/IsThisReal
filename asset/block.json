@@ -1,0 +1,288 @@
+{
+  "summon": {
+    "struct": [
+      {
+        "type": "select",
+        "option": "character"
+      },
+      {
+        "type": "text",
+        "data": "을(를) x:"
+      },
+      {
+        "type": "input",
+        "size": "s",
+        "numType": "decimal"
+      },
+      {
+        "type": "text",
+        "data": "&nbsp;y:"
+      },
+      {
+        "type": "input",
+        "size": "s",
+        "numType": "decimal"
+      },
+      {
+        "type": "text",
+        "data": "에&nbsp;"
+      },
+      {
+        "type": "input",
+        "size": "s",
+        "numType": "decimal"
+      },
+      {
+        "type": "text",
+        "data": "크기로 생성하기"
+      }
+    ],
+    "type": 0
+  },
+  "tpToPos": {
+    "struct": [
+      {
+        "type": "select",
+        "option": "character"
+      },
+      {
+        "type": "text",
+        "data": "이(가) x:"
+      },
+      {
+        "type": "input",
+        "size": "s",
+        "numType": "decimal"
+      },
+      {
+        "type": "text",
+        "data": "&nbsp;y:"
+      },
+      {
+        "type": "input",
+        "size": "s",
+        "numType": "decimal"
+      },
+      {
+        "type": "text",
+        "data": "(으)로 이동하기"
+      }
+    ],
+    "type": 0
+  },
+  "moveToPos": {
+    "struct": [
+      {
+        "type": "select",
+        "option": "character"
+      },
+      {
+        "type": "text",
+        "data": "이(가)&nbsp;"
+      },
+      {
+        "type": "input",
+        "size": "s",
+        "numType": "decimal"
+      },
+      {
+        "type": "text",
+        "data": "초 동안 x:"
+      },
+      {
+        "type": "input",
+        "size": "s",
+        "numType": "decimal"
+      },
+      {
+        "type": "text",
+        "data": "&nbsp;y:"
+      },
+      {
+        "type": "input",
+        "size": "s",
+        "numType": "decimal"
+      },
+      {
+        "type": "text",
+        "data": "(으)로 이동하기"
+      }
+    ],
+    "type": 0
+  },
+  "rotate": {
+    "struct": [
+      {
+        "type": "select",
+        "option": "character"
+      },
+      {
+        "type": "text",
+        "data": "을(를)&nbsp;"
+      },
+      {
+        "type": "input",
+        "size": "s",
+        "numType": "decimal"
+      },
+      {
+        "type": "text",
+        "data": "초 동안&nbsp;"
+      },
+      {
+        "type": "input",
+        "size": "s",
+        "numType": "decimal"
+      },
+      {
+        "type": "text",
+        "data": "&deg;로 회전하기"
+      }
+    ],
+    "type": 1
+  },
+  "flipX": {
+    "struct": [
+      {
+        "type": "select",
+        "option": "character"
+      },
+      {
+        "type": "text",
+        "data": "의 상하 모양 뒤집기"
+      }
+    ],
+    "type": 1
+  },
+  "flipY": {
+    "struct": [
+      {
+        "type": "select",
+        "option": "character"
+      },
+      {
+        "type": "text",
+        "data": "의 좌우 모양 뒤집기"
+      }
+    ],
+    "type": 1
+  },
+  "show": {
+    "struct": [
+      {
+        "type": "select",
+        "option": "character"
+      },
+      {
+        "type": "text",
+        "data": "&nbsp;보이기"
+      }
+    ],
+    "type": 1
+  },
+  "hide": {
+    "struct": [
+      {
+        "type": "select",
+        "option": "character"
+      },
+      {
+        "type": "text",
+        "data": "&nbsp;숨기기"
+      }
+    ],
+    "type": 1
+  },
+  "delay": {
+    "struct": [
+      {
+        "type": "input",
+        "size": "s",
+        "numType": "decimal"
+      },
+      {
+        "type": "text",
+        "data": "초 기다리기"
+      }
+    ],
+    "type": 2
+  },
+  "changeBg": {
+    "struct": [
+      {
+        "type": "text",
+        "data": "배경을&nbsp;"
+      },
+      {
+        "type": "select",
+        "option": "background"
+      },
+      {
+        "type": "text",
+        "data": "(으)로 바꾸기"
+      }
+    ],
+    "type": 2
+  },
+  "playMusic": {
+    "struct": [
+      {
+        "type": "select",
+        "option": "audio"
+      },
+      {
+        "type": "text",
+        "data": "&nbsp;재생하기"
+      }
+    ],
+    "type": 3
+  },
+  "playloopMusic": {
+    "struct": [
+      {
+        "type": "select",
+        "option": "audio"
+      },
+      {
+        "type": "text",
+        "data": "&nbsp;반복 재생하기"
+      }
+    ],
+    "type": 3
+  },
+  "stopMusic": {
+    "struct": [
+      {
+        "type": "select",
+        "option": "audio"
+      },
+      {
+        "type": "text",
+        "data": "&nbsp;정지하기"
+      }
+    ],
+    "type": 3
+  },
+  "volumeMusic": {
+    "struct": [
+      {
+        "type": "select",
+        "option": "audio"
+      },
+      {
+        "type": "text",
+        "data": "의 볼륨을&nbsp;"
+      },
+      {
+        "type": "input",
+        "size": "s",
+        "numType": "decimal"
+      },
+      {
+        "type": "text",
+        "data": "%로 정하기"
+      }
+    ],
+    "type": 3
+  }
+}

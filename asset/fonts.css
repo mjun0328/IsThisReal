@@ -1,0 +1,250 @@
+@font-face {
+  font-family: "GmarketSans";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff")
+    format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GmarketSans";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GmarketSans";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+    format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NanumSquare";
+  src: url("../src/lib/fonts/NanumSquare/NanumSquareL.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NanumSquare";
+  src: url("../src/lib/fonts/NanumSquare/NanumSquareR.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NanumSquare";
+  src: url("../src/lib/fonts/NanumSquare/NanumSquareB.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NanumSquare";
+  src: url("../src/lib/fonts/NanumSquare/NanumSquareEB.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NotoSans";
+  src: url("../src/lib/fonts/NotoSans/NotoSansT.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSans";
+  src: url("../src/lib/fonts/NotoSans/NotoSansL.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSans";
+  src: url("../src/lib/fonts/NotoSans/NotoSansR.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSans";
+  src: url("../src/lib/fonts/NotoSans/NotoSansM.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSans";
+  src: url("../src/lib/fonts/NotoSans/NotoSansB.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSans";
+  src: url("../src/lib/fonts/NotoSans/NotoSansH.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AppleGothic";
+  src: url("../src/lib/fonts/AppleGothic/AppleGothicT.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AppleGothic";
+  src: url("../src/lib/fonts/AppleGothic/AppleGothicEL.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AppleGothic";
+  src: url("../src/lib/fonts/AppleGothic/AppleGothicL.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AppleGothic";
+  src: url("../src/lib/fonts/AppleGothic/AppleGothicR.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AppleGothic";
+  src: url("../src/lib/fonts/AppleGothic/AppleGothicM.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AppleGothic";
+  src: url("../src/lib/fonts/AppleGothic/AppleGothicSB.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AppleGothic";
+  src: url("../src/lib/fonts/AppleGothic/AppleGothicB.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AppleGothic";
+  src: url("../src/lib/fonts/AppleGothic/AppleGothicEB.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AppleGothic";
+  src: url("../src/lib/fonts/AppleGothic/AppleGothicH.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../src/lib/fonts/Inter/InterT.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../src/lib/fonts/Inter/InterEL.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../src/lib/fonts/Inter/InterL.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../src/lib/fonts/Inter/InterR.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../src/lib/fonts/Inter/InterM.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../src/lib/fonts/Inter/InterSB.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../src/lib/fonts/Inter/InterB.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../src/lib/fonts/Inter/InterEB.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../src/lib/fonts/Inter/InterH.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NotoSansMono";
+  src: url("../src/lib/fonts/NotoSansMono/NotoSansMonoT.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansMono";
+  src: url("../src/lib/fonts/NotoSansMono/NotoSansMonoEL.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansMono";
+  src: url("../src/lib/fonts/NotoSansMono/NotoSansMonoL.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansMono";
+  src: url("../src/lib/fonts/NotoSansMono/NotoSansMonoR.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansMono";
+  src: url("../src/lib/fonts/NotoSansMono/NotoSansMonoM.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansMono";
+  src: url("../src/lib/fonts/NotoSansMono/NotoSansMonoSB.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansMono";
+  src: url("../src/lib/fonts/NotoSansMono/NotoSansMonoB.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansMono";
+  src: url("../src/lib/fonts/NotoSansMono/NotoSansMonoB.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansMono";
+  src: url("../src/lib/fonts/NotoSansMono/NotoSansMonoH.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}

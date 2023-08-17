@@ -1,0 +1,46 @@
+[
+  {
+    "file": "happy.png",
+    "name": "Happy Cat"
+  },
+  {
+    "file": "happy_jumping.gif",
+    "name": "Jumping Happy Cat"
+  },
+  {
+    "file": "banana.png",
+    "name": "Banana Cat"
+  },
+  {
+    "file": "banana_heart.png",
+    "name": "Banana Cat with Heart"
+  },
+  {
+    "file": "banana_crying.gif",
+    "name": "Crying Banana Cat"
+  },
+  {
+    "file": "apple.png",
+    "name": "Apple Cat"
+  },
+  {
+    "file": "apple_spinning.gif",
+    "name": "Spinning Apple Cat"
+  },
+  {
+    "file": "apple_running.gif",
+    "name": "Running Apple Cat"
+  },
+  {
+    "file": "maxwell.png",
+    "name": "Maxwell Cat"
+  },
+  {
+    "file": "maxwell_turning.gif",
+    "name": "Turning Maxwell Cat"
+  },
+  {
+    "file": "elgato.png",
+    "name": "El gato"
+  }
+]

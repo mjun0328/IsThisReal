@@ -1,0 +1,334 @@
+ui-toast {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 18px;
+  position: fixed;
+  right: 40px;
+  bottom: 60px;
+  text-align: center;
+  z-index: 150;
+}
+
+ui-toast > div {
+  display: inline-flex;
+  padding: 14px;
+  margin: 0px 0px 0px auto;
+  transition: 0.2s;
+  overflow: hidden;
+  border-radius: 10px;
+  gap: 10px;
+  background-color: #ffffff;
+}
+
+ui-toast > div.green {
+  box-shadow: 0px 2px 10px -4px #44ab4b;
+}
+
+ui-toast > div.yellow {
+  box-shadow: 0px 2px 10px -4px #d69648;
+}
+
+ui-toast > div.red {
+  box-shadow: 0px 2px 10px -4px #f4403b;
+}
+
+
+@media (min-width: 601px) {
+  ui-toast > div.green:hover {
+    box-shadow: 0px 7px 14px -5px #44ab4b;
+  }
+
+  ui-toast > div.yellow:hover {
+    box-shadow: 0px 7px 14px -5px #d69648;
+  }
+
+  ui-toast > div.red:hover {
+    box-shadow: 0px 7px 14px -5px #f4403b;
+  }
+}
+
+
+ui-toast > div * {
+  transition: 0.2s;
+}
+
+ui-toast > div.fadein {
+  line-height: 0px;
+  padding: 0px;
+  margin-top: -18px;
+}
+
+ui-toast > div.fadein div span {
+  font-size: 0px;
+}
+
+ui-toast > div.fadein img {
+  height: 0px;
+}
+
+ui-toast > div.fadeout {
+  opacity: 0;
+}
+
+ui-toast > div > img {
+  height: 25px;
+}
+
+ui-toast > div div {
+  display: inline-flex;
+  min-width: 300px;
+}
+
+ui-toast > div div span {
+  font-family: "NanumSquare";
+  font-size: 16px;
+  font-weight: lighter;
+  background-color: #ffffff;
+  margin: auto 0px;
+}
+
+ui-toast > div div span a {
+  color: var(--color-link);
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-thickness: 1px;
+  transition: 0s;
+}
+
+ui-toast > div div span a:hover {
+  text-decoration: none;
+}
+
+ui-toast > div button {
+  background-color: transparent;
+}
+
+ui-toast > div button img {
+  height: 22px;
+}
+
+
+@media (max-width: 1200px) {
+  ui-toast {
+    right: 20px;
+    bottom: 30px;
+  }
+
+  ui-toast > div.fadein {
+    margin-top: -14px;
+  }
+
+  ui-toast > div > img {
+    height: 22px;
+  }
+
+  ui-toast > div div span {
+    font-size: 14px;
+  }
+  
+  ui-toast > div button img {
+    height: 20px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  ui-toast {
+    gap: 14px;
+    bottom: 20px;
+  }
+
+  ui-toast > div {
+    padding: 12px;
+  }
+
+  ui-toast > div img {
+    height: 20px;
+  }
+
+  ui-toast > div div {
+    min-width: 200px;
+  }
+
+  ui-toast > div div span {
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width: 370px) {
+  ui-toast {
+    left: 15px;
+    right: 15px;
+  }
+
+  ui-toast > div {
+    padding: 10px;
+    margin: 0px;
+    gap: 5px;
+  }
+
+  ui-toast > div img {
+    height: 18px;
+  }
+  
+  ui-toast > div div {
+    flex-grow: 1;
+    min-width: 0px;
+  }
+}
+
+
+
+
+ui-modal {
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: #00000000;
+  z-index: 100;
+}
+
+ui-modal[active] {
+  display: flex;
+  transition: 0.5s;
+}
+
+ui-modal[active2] {
+  background-color: #0000005b;
+}
+
+ui-modal > div {
+  position: relative;
+  margin: auto;
+  top: 100vh;
+  width: 450px;
+  padding: 24px 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #6e6e6e69;
+  transition: 0.5s;
+}
+
+ui-modal[active2] > div {
+  top: 0px;
+}
+
+ui-modal > div > div:nth-child(1) {
+  display: flex;
+  gap: 10px;
+  margin: 0px 0px 20px 0px;
+}
+
+ui-modal > div > div:nth-child(1) button img {
+  height: 20px;
+}
+
+ui-modal > div > div:nth-child(1) h1 {
+  font-family: "Inter", "AppleGothic";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--color-text);
+}
+
+ui-modal > div > div:nth-child(2) {
+  font-family: "NanumSquare", "AppleGothic";
+  font-size: 14px;
+  font-weight: 500;
+  text-align: justify;
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+ui-modal > div > div:nth-child(3) {
+  display: flex;
+  gap: 10px;
+  margin: 24px 0px -10px 0px;
+}
+
+ui-modal > div > div:nth-child(3) button {
+  font-family: "AppleGothic";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  width: 100%;
+  padding: 10px 0px;
+  transition: 0.2s;
+}
+
+ui-modal > div > div:nth-child(3) button[emphasis] {
+  color: var(--color-link);
+}
+
+ui-modal > div > div:nth-child(3) button[destroy] {
+  color: var(--color-destroy);
+}
+
+ui-modal > div > div:nth-child(3) button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+
+@media (max-width: 800px) {
+  ui-modal > div {
+    width: 340px;
+  }
+
+  ui-modal > div > div:nth-child(1) {
+    margin: 0px 0px 12px 0px;
+    gap: 8px;
+  }
+
+  ui-modal > div > div:nth-child(1) button img {
+    height: 16px;
+  }
+
+  ui-modal > div > div:nth-child(1) h1 {
+    font-size: 16px;
+  }
+
+  ui-modal > div > div:nth-child(2) {
+    font-size: 12px;
+  }
+
+  ui-modal > div > div:nth-child(3) {
+    margin: 18px 0px -8px 0px;
+  }
+
+  ui-modal > div > div:nth-child(3) button {
+    font-size: 12px;
+    padding: 8px 0px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  ui-modal > div {
+    width: calc(100% - 60px);
+    border-radius: 10px;
+  }
+}
+
+
+@media (max-width: 355px) {
+  ui-modal > div {
+    padding: 20px 16px;
+  }
+  
+  ui-modal > div > div:nth-child(1) button img {
+    height: 14px;
+  }
+
+  ui-modal > div > div:nth-child(1) h1 {
+    font-size: 14px;
+  }
+
+  ui-modal > div > div:nth-child(2) {
+    font-size: 11px;
+  }
+}
