@@ -218,7 +218,7 @@ window.onload = function () {
   ]);
 
   running = new Running(toast);
-  getJson("../asset/block.json", function (res) {
+  getJson("./asset/block.json", function (res) {
     blockStruct = res;
 
     // contents 내 block
